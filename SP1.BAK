@@ -1,0 +1,23 @@
+/*
+aim - first program
+author: samar
+date: 27.march.2025
+place: sirsa
+
+It is a comment. Comment makes your program easy to understand
+2 Types of comment
+1. Multi Line Comment
+2. Line comment
+
+Comment not translated by compiler
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ printf("hallow world");
+ getch();
+}//end of program

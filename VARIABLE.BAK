@@ -1,0 +1,85 @@
+/*
+  Aim - Understand Variable in C
+  Author - Rai
+  Date - 25 Sep 2023
+  Place - SIRCL TECH
+
+*/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+   //declaration
+   int a;
+   char b;
+   float c;
+
+   clrscr();
+
+   //Assignment
+   a=10;
+   b='#';
+   c=9.28;
+
+   //Using
+   printf("\nThe value of A=%d",a);
+   printf("\nB=%c",b);
+   printf("\nC has float value that is %.2f",c);
+
+   printf("\nA=%d\nB=%c\nC=%f",a,b,c);
+
+   getch();
+}
+/*
+
+Variable - It is a name which is given to memory location of RAM where we
+	   can store data.
+
+Rules to implement variable
+
+1. Declaration of Variable
+
+		 int|char|float  any word or alphabet
+	Syntax - DataType 	variablename;
+
+	Dataype decide what kind of data a variable will store in RAM
+	int eg. 5, 7, -3, -9, 10
+
+	float eg. 6.4, 99.993, -8.38
+
+	char eg. 'A', '9', '#'
+
+	example:
+	int a;
+
+	char b;
+
+	float c;
+
+2. Assignment
+
+   Put value into variable
+
+   syntax -  varname = value;
+
+   example:
+   a=10;
+
+   b='#';
+
+   c=8.22;
+
+3. Using - Use the variable values       printf( " 1 " ,  2);
+			  1                        2
+   Syntax - printf("msg+ format specifiers" , var1,var2,...);
+
+   format pecifiers -  %d to print int value
+		       %c to print char value
+		       %f to print float value
+   example:
+   printf("\nValue of A=%d" , a);
+   printf("\nB=%c",b);
+   printf("\nC has float value that is %f", c);
+
+   LET US C
+*/

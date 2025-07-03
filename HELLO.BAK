@@ -1,0 +1,18 @@
+/*
+Aim - Escape Sequence Characters Introduction
+Date - 20 Sep 2023
+Place - SIRCL TECH
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+  clrscr();
+  printf("\n\nHello\t\t\t\t\t\t\t\t\t    User");
+  printf("\nWelcome in C");
+  getch();
+  return 0;
+}
+

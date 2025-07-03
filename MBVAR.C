@@ -1,0 +1,74 @@
+ /*
+ Aim - What is Variable?
+
+ Anything which may change time to time.
+
+ eg. Temprature , Mood
+
+ Any alphabet, word, including digit but can not start from digit
+ Valid vairbles : a, b, c, name, age, dob , n1, num1
+
+ In C variable is used to store data into RAM (Random Access Memory).
+
+ How we create variable?
+ Ans. Declare the variable.
+
+ Syntax:
+
+ Datatype varname;
+
+ Datatype decide what kind of value you will store variable
+ int  used to store values like - 4,5 ,9 ,12, -37
+ char used to store value like 'A', '#'
+ float used to store value like 9.33,6.33, 33.22
+
+ example :
+ int x;
+ char y;
+ float a;
+
+ How we can store value into variable?
+ Ans. Using Assignment it mean put value into variable.
+ syntax (rule to write):
+
+ varname=value;
+ example:
+
+ x=10;
+ y='A';
+ a=6.44;
+
+ How we can use variable?
+
+ Ans. you can apply any logic or print the value of variable.
+
+ printf("msg + format specifiers", variable list);
+ example:
+ printf("\nValue of X=%d",x);
+ printf("\nY=%c",y);
+ printf("\nValue of A=%f",a);
+
+ %d is used in printf to print int value
+ %c is used to print char value
+ %f is used to print float value
+
+ */
+ #include<stdio.h>
+ #include<conio.h>
+ void main()
+ {
+   //1. Declare the variables
+   int x;
+   char y;
+   float a;
+   clrscr();
+   //2. Assignment - put value into variable
+   x=10;
+   y='A';
+   a=6.44;
+   //3. Using - print value of va riable
+   printf("\nValue of X=%d",x);
+   printf("\nValue of Y=%c",y);
+   printf("\nValue of A=%f",a);
+   getch();
+ }

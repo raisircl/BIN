@@ -1,0 +1,51 @@
+#include<iostream.h>
+//using namespace std;
+/*
+
+Reference Variable - Create an alias(another name) of existing variable
+syntax : datatype &refvarname=varname;
+
+int x=10;         | 10 | x
+
+int &y=x; // y is another name of x    | 10 | x or y
+
+*/
+void swap(int&,int&);  // void swap(int*,int*);
+int main()
+{
+  int x=10;
+  int &y=x;  // y is another name of x    it is called refrence variable
+
+  cout<<"\n Y="<<y;  // 10 that value of x
+  y=100;  // x also will be 10
+  cout<<"\nX="<<x;  // we get 100
+
+  int n1=100, n2=200;
+  cout<<"\n before call of swap n1="<<n1<<" and n2="<<n2;
+  swap(n1,n2);    // swap(&n1,&n2);
+  cout<<"\nafter call of swap n1="<<n1<<" and n2="<<n2;
+  cout<<sizeof(int);
+
+return 0;
+
+}
+void swap(int &a,int &b) // a and b is ref var // void swap(int *a,int *b)
+{
+   int c;         //
+   c=a;          //c=*a;
+   a=b;         // *a=*b;
+   b=c;         // *b=c;
+}
+/*
+void result(int,int,int,int,int,int &,float &);
+
+
+Pass complete array to function
+
+void display(int[]);
+
+void display(int a[])
+{
+
+}
+*/

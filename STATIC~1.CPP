@@ -1,0 +1,31 @@
+//static member become a common member of a class
+//static member is a variable or a function
+//static variable known as static data member
+//static function known as static member function
+//static member function always made for static data member
+//static variable retain itself last value between multiple function call
+// static data member declare inside the class and define outside the class (declare inside the class and defined outside the class)
+#include<iostream.h>
+
+//using namespace std;
+
+class Demo
+{
+    private:
+     static int x;
+    public:
+    void msg()
+    {
+	x++;
+	cout<<"\n X="<<x;
+    }
+};
+int Demo::x=0;
+int main()
+{
+    Demo d1,d2,d3,d4;
+    d1.msg();
+    d2.msg();
+    d3.msg();
+    d4.msg();
+}

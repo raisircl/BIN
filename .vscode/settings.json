@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "BREAK.C": "cpp",
+        "CONTINUE.C": "cpp",
+        "CBV.C": "cpp",
+        "LOOP.C": "cpp",
+        "NESTLOOP.C": "cpp",
+        "DOWHILE.C": "cpp",
+        "SWITCH.C": "cpp",
+        "WHYFUN.C": "cpp",
+        "FUN1.C": "cpp",
+        "FUN2.C": "cpp",
+        "P14PM.C": "cpp",
+        "POINTER.C": "cpp",
+        "CBR.C": "cpp",
+        "stu_uni.C": "cpp",
+        "IFELSE.C": "cpp",
+        "NESTIF.C": "cpp",
+        "MATRIX5.C": "cpp",
+        "LOGICOP.C": "cpp",
+        "TERNERY.C": "cpp",
+        "PSP1.C": "cpp",
+        "DIS.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

@@ -1,0 +1,14 @@
+/*
+AIM -First Program of c
+Author - Tripti
+Place - SIRSA
+Date - 11 June 2024
+#incclude<stdio.h>
+#include<conio.h>
+void main()
+(
+  clrscr();
+  printf("/n user");
+  printf("/n Welcome in c");
+  getch();
+)

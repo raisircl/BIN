@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a[3][3]={{1,1,1},{2,2,2},{3,3,3}};
+  clrscr();
+  printf("\n Base address %u",a);
+  getch();
+}

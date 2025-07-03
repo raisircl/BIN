@@ -1,0 +1,27 @@
+/*
+ Aim: First Program of C
+ Author: Rai, Urvi
+ Date: 23 May 2024
+ Place: SIRCL TECH, SIRSA
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  clrscr();
+  printf("\nHello User");
+  printf("\nWelcome in C");
+  getch();
+}//end of program
+
+/*
+
+ Escape Sequence Characters -  Break the printing sequence of character
+ \n New Line Character
+ \t insert 8 columns gap between 2 words
+ \b backspace - move your cursor one step back
+ \r move cursor at begning of line
+ \" print quotes on the screen
+ \\ print \ on the screen
+ \\n print \n on the screen
+*/

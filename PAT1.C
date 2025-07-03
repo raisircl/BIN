@@ -1,0 +1,23 @@
+main()
+{
+  int i,j,k,l;
+  clrscr();
+  for(i=1;i<=5;i++)
+  {
+    for(j=5;j>=i;j--)
+    {
+      printf("*");
+    }
+    for(k=1;k<i;k++)
+    {
+     printf("-");
+    }
+    for(l=5;l>=i;l--)
+    {
+     printf("*");
+    }
+    printf("\n");
+  }
+
+  getch();
+}

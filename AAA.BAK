@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int x;
+  float y;
+  clrscr();
+  x=10;
+
+  y = (float)x / 3;
+
+  printf("\nX=%f",y);
+  getch();
+}
+/*
+Operator
+5+2
+
++ operator
+
+5,2 operand
+Unary - operates on single value
+
++
+-
+/
+*
+%
+
+*/

@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+class Shape
+{
+  public:
+
+   virtual void area()=0;
+   // a virtual function without body known as pure virtual.
+   // if a class has pure virtual then it is called abstract class
+   //we can not create an object of this class
+   //this class is must inheritable class
+   //if a class inherits abstract class then it also be an abstract 
+   // untill it overided the pure virtual functions
+   //  so pure virtual functions always be must overidable function
+   //abtsract class sign a contract with other classes it said 
+   //"i just provides you prototypes and define those functions"
+};
+class Rect: public Shape
+{
+   
+   public:
+   void input()
+   {
+
+   }
+   void area()
+   {
+     cout<<"\n area of rect";
+   }    
+};
+class Circle: public Shape
+{
+    public:
+    void area()
+    {
+        cout<<"\n Area of cirlce";
+    }
+};
+int main()
+{
+  Shape *ptr=new Rect(); 
+  ptr->area();
+
+  ptr=new Circle();
+  ptr->area();  
+}

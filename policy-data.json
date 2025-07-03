@@ -1,0 +1,1279 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3,
+            "created_on": "2024-08-01T15:50:24.881933Z",
+            "updated_on": "2024-08-01T15:50:24.881959Z",
+            "is_policy_generated": true,
+            "insurer_tech_policy_id": 6,
+            "created_by": 30,
+            "motor_payment": 6,
+            "insurer_tech_policy": {
+                "id": 6,
+                "created_on": "2024-08-01T15:50:17.740013",
+                "updated_on": "2024-08-01T15:50:24.489133",
+                "uuid": "49b23a18-5642-4187-820c-a0dce2a99846",
+                "user_uuid": "0eb664cf-1bda-47f3-b02f-33bada46569b",
+                "request_data": {},
+                "status": "success",
+                "is_success": true,
+                "response_data": {
+                    "error": {
+                        "httpCode": 200,
+                        "errorCode": 0,
+                        "errorLink": null,
+                        "customErrorCode": null,
+                        "errorStackTrace": null,
+                        "validationMessages": []
+                    },
+                    "state": "ACTIVE",
+                    "persons": [
+                        {
+                            "gender": "MALE",
+                            "partyId": "V22B9F7C5A51A942D340B77CC28D9812AB6B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E25F50DB4224B6F022",
+                            "isDriver": true,
+                            "lastName": "KUMAR",
+                            "addresses": [
+                                {
+                                    "city": "Sirsa",
+                                    "state": "27",
+                                    "street": "S O RAJENDER KUMARHOUSE NO 1453VISHNU CHAKI WALI GALI",
+                                    "country": "IN",
+                                    "pincode": "125055",
+                                    "addressId": "V2441031A9E00E964CEADEE2CE8FEF8BC06B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "flatNumber": "",
+                                    "addressType": "SECONDARY_RESIDENCE"
+                                },
+                                {
+                                    "city": "Mumbai",
+                                    "country": "IN",
+                                    "pincode": "400010",
+                                    "addressId": "V23D24C8F1110576B6ECA1B31F2B6B297C6B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "addressType": "PRIMARY_RESIDENCE"
+                                }
+                            ],
+                            "firstName": "RAJ",
+                            "personType": "INDIVIDUAL",
+                            "dateOfBirth": "1997-09-07",
+                            "communications": [
+                                {
+                                    "identifier": "V2CAB5B69DF0C775F1FC8CE37E729AF3D56B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "communicationId": "8059637468",
+                                    "communicationNote": null,
+                                    "communicationType": "MOBILE",
+                                    "communicationChannel": null,
+                                    "isPrefferedCommunication": true
+                                },
+                                {
+                                    "identifier": "V2F3A711FAF1B916919801330BBD6672E26B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "communicationId": "VRAJ1898@GMAIL.COM",
+                                    "communicationNote": null,
+                                    "communicationType": "EMAIL",
+                                    "communicationChannel": null,
+                                    "isPrefferedCommunication": true
+                                }
+                            ],
+                            "isPolicyHolder": true,
+                            "isVehicleOwner": true,
+                            "isInsuredPerson": true,
+                            "identificationDocuments": []
+                        }
+                    ],
+                    "vehicle": {
+                        "make": "MARUTI SUZUKI",
+                        "model": "SWIFT DZIRE",
+                        "trailers": [],
+                        "vehicleIDV": {
+                            "idv": 729000.0,
+                            "defaultIdv": 729000.0,
+                            "maximumIdv": 838350,
+                            "minimumIdv": 619650
+                        },
+                        "vehicleType": "KFZP10",
+                        "engineNumber": "22DICOR09HVYJ12456",
+                        "isVehicleNew": true,
+                        "annualMileage": 0.0,
+                        "manufactureDate": "2024-01-01",
+                        "vehicleMaincode": "1112612604",
+                        "registrationDate": "0001-01-01",
+                        "vehicleAgeInYears": 0,
+                        "licensePlateNumber": "MH01",
+                        "ownershipSerialNumber": "0",
+                        "registrationAuthority": "MH01",
+                        "vehicleIdentificationNumber": "MAT61700ENH06549112"
+                    },
+                    "contract": {
+                        "endDate": "2027-08-01",
+                        "coverages": {
+                            "fire": {
+                                "selection": false
+                            },
+                            "theft": {
+                                "selection": false
+                            },
+                            "addons": {
+                                "evShield": {
+                                    "planA": {
+                                        "selection": false
+                                    },
+                                    "planC": {
+                                        "selection": false
+                                    },
+                                    "copay10EV": {
+                                        "selection": false
+                                    },
+                                    "copay20EV": {
+                                        "selection": false
+                                    },
+                                    "evClaims2": {
+                                        "selection": false
+                                    },
+                                    "noCopayEV": {
+                                        "selection": false
+                                    },
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "NOT_AVAILABLE"
+                                },
+                                "consumables": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "towingCover": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "NOT_AVAILABLE"
+                                },
+                                "payAsYouDrive": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "rimProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "tyreProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "dailyConveyance": {
+                                    "planType": "COMP",
+                                    "planLimit": 300,
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "planPeriod": 5,
+                                    "excessPeriod": 5,
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "preferredGarage": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "returnToInvoice": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "engineProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "keyAndLockProtect": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "ONE_KP",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "partsDepreciation": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "TWO",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "personalBelonging": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "ONE_PB",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "roadSideAssistance": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                }
+                            },
+                            "isIMT23": false,
+                            "isGeoExt": false,
+                            "ownDamage": {
+                                "discount": {
+                                    "discounts": [],
+                                    "incremental": {
+                                        "isIncrementalApplicable": true,
+                                        "defaultCommisionPercentage": 24.0,
+                                        "maximumIncrementalPercentage": 16.0,
+                                        "minimumIncrementalPercentage": -24.0
+                                    },
+                                    "discountsWithoutZeroDep": [],
+                                    "maxSpecialDiscountPercent": 52.0,
+                                    "minSpecialDiscountPercent": 0.0,
+                                    "userSpecialDiscountPercent": 0.0,
+                                    "defaultSpecialDiscountPercent": 50.0,
+                                    "discountsWithoutPreInspection": [],
+                                    "effectiveSpecialDiscountPercent": 0,
+                                    "effectiveIncrementalCommissionPercent": 0.0,
+                                    "defaultSpecialDiscountPercentWithoutPreInspection": 50.0,
+                                    "effectiveSpecialDiscountPercentWithoutPreInspection": 0,
+                                    "effectiveIncrementalCommissionPercentWithoutPreInspection": 0.0
+                                },
+                                "selection": false,
+                                "surcharge": {
+                                    "loadings": []
+                                },
+                                "netPremium": "INR 11966.54",
+                                "traiffPremium": "INR 23933.00",
+                                "netPremiumWithoutZeroDepWithoutPreInspection": "INR 11966.54",
+                                "ncbDiscountWithoutZeroDepWithoutPreInspection": "INR 0.00",
+                                "policyNetPremiumWithoutZeroDepWithoutPreInspection": "INR 23215.54",
+                                "policyGrossPremiumWithoutZeroDepWithoutPreInspection": "INR 27394.34"
+                            },
+                            "unnamedPA": {
+                                "unnamedPax": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredAmount": 100000.0
+                                },
+                                "unnamedHirer": {
+                                    "selection": false
+                                },
+                                "unnamedCleaner": {
+                                    "selection": false
+                                },
+                                "unnamedConductor": {
+                                    "selection": false
+                                },
+                                "unnamedPaidDriver": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredAmount": 200000.0
+                                },
+                                "unnamedPillionRider": {
+                                    "selection": false
+                                }
+                            },
+                            "accessories": {
+                                "cng": {
+                                    "selection": false,
+                                    "maxAllowed": 80000,
+                                    "minAllowed": 10000,
+                                    "insuredAmount": 15000.0
+                                },
+                                "electrical": {
+                                    "selection": false,
+                                    "maxAllowed": 109350,
+                                    "minAllowed": 73,
+                                    "insuredAmount": 73
+                                },
+                                "nonElectrical": {
+                                    "selection": false,
+                                    "maxAllowed": 72900,
+                                    "minAllowed": 73,
+                                    "insuredAmount": 73
+                                }
+                            },
+                            "legalLiability": {
+                                "cleanersLL": {
+                                    "selection": false
+                                },
+                                "employeesLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "nonFarePaxLL": {
+                                    "selection": false
+                                },
+                                "paidDriverLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "unnamedPaxLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "workersCompensationLL": {
+                                    "selection": false
+                                }
+                            },
+                            "personalAccident": {
+                                "coverTerm": 3,
+                                "selection": true,
+                                "netPremium": "INR 909.00",
+                                "coverAvailability": "AVAILABLE"
+                            },
+                            "roadSideAssistance": {
+                                "selection": false
+                            },
+                            "thirdPartyLiability": {
+                                "isTPPD": true,
+                                "selection": false,
+                                "netPremium": "INR 10340.00"
+                            },
+                            "isOverturningExclusionIMT47": false,
+                            "isTheftAndConversionRiskIMT43": false
+                        },
+                        "startDate": "2024-08-02",
+                        "isNCBTransfer": false,
+                        "quotationDate": "2024-08-01",
+                        "policyHolderType": "INDIVIDUAL",
+                        "isRenewalAvailable": false,
+                        "currentNoClaimBonus": "ZERO",
+                        "insuranceProductCode": "20101",
+                        "subInsuranceProductCode": "31",
+                        "quotationAvailabilityEndDate": "2024-08-31"
+                    },
+                    "loadings": {
+                        "otherLoadings": [],
+                        "totalLoadingAmount": "INR 0.00"
+                    },
+                    "pospInfo": {
+                        "isPOSP": false
+                    },
+                    "discounts": {
+                        "otherDiscounts": [],
+                        "specialDiscountAmount": "INR 0.00"
+                    },
+                    "enquiryId": "ENSUREZY1722507564855015",
+                    "kycStatus": {
+                        "kycVerificationStatus": "IN_PROGRESS"
+                    },
+                    "netPremium": "INR 23215.54",
+                    "serviceTax": {
+                        "cgst": "INR 0.00",
+                        "igst": "INR 4178.80",
+                        "sgst": "INR 0.00",
+                        "utgst": "INR 0.00",
+                        "taxType": "IGST",
+                        "totalTax": "INR 4178.80"
+                    },
+                    "policyState": "APPLICATION",
+                    "grossPremium": "INR 27394.34",
+                    "motorBreakIn": {
+                        "isBreakin": false,
+                        "totalGraceDays": 0,
+                        "isDocumentUploaded": false,
+                        "isPreInspectionWaived": false,
+                        "isPreInspectionCompleted": false
+                    },
+                    "policyNumber": "D601503737",
+                    "policyStatus": "INCOMPLETE",
+                    "applicationId": "V2F58262E3D2AEE459DFB2DF2C3AC932866B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E25F50DB4224B6F022",
+                    "preInspection": {
+                        "piOptions": [],
+                        "paydOptions": [],
+                        "isPreInspectionOpted": false,
+                        "isPreInspectionWaived": false,
+                        "isPreInspectionEligible": false,
+                        "isSchoolBusWaiverEligibleWithTPlusFortyEight": false
+                    },
+                    "motorQuestions": {
+                        "selfInspection": false,
+                        "whatsappCommunicationConstent": false
+                    },
+                    "previousInsurer": {
+                        "isClaimInLastYear": false,
+                        "previousInsurerCode": "",
+                        "previousNoClaimBonus": "ZERO",
+                        "previousPolicyNumber": "",
+                        "isPreviousInsurerKnown": false,
+                        "currentThirdPartyPolicy": {},
+                        "previousPolicyExpiryDate": "2024-05-02"
+                    },
+                    "informationMessages": []
+                },
+                "response_status_code": "200",
+                "error_message": {},
+                "policy_number": "D601503737",
+                "issue_date": "2024-08-02",
+                "start_date": "2024-08-02",
+                "expiry_date": "2027-08-01",
+                "od_policy_start_date": "2024-08-02",
+                "od_policy_expiry_date": "2025-08-02",
+                "tp_policy_start_date": "2024-08-02",
+                "tp_policy_expiry_date": "2027-08-02",
+                "policy_pdf": "https://ensurezy-website-staging.s3.amazonaws.com/media/insurer_tech/motor/policies/V2F58262E3D2AEE459DFB2DF2C3AC932866B161EA3DAC0ACAA73DED70A4C66D6D99745F5E4A9CBC3E.pdf",
+                "payment": 7
+            }
+        },
+        {
+            "id": 2,
+            "created_on": "2024-08-01T14:18:47.478495Z",
+            "updated_on": "2024-08-01T14:18:47.478518Z",
+            "is_policy_generated": true,
+            "insurer_tech_policy_id": 5,
+            "created_by": 30,
+            "motor_payment": 5,
+            "insurer_tech_policy": {
+                "id": 5,
+                "created_on": "2024-08-01T14:18:37.773468",
+                "updated_on": "2024-08-01T14:18:46.208607",
+                "uuid": "4ae0ac9c-46c6-4a1c-8680-b3ad2bb27489",
+                "user_uuid": "0eb664cf-1bda-47f3-b02f-33bada46569b",
+                "request_data": {},
+                "status": "success",
+                "is_success": true,
+                "response_data": {
+                    "error": {
+                        "httpCode": 200,
+                        "errorCode": 0,
+                        "errorLink": null,
+                        "customErrorCode": null,
+                        "errorStackTrace": null,
+                        "validationMessages": []
+                    },
+                    "state": "ACTIVE",
+                    "persons": [
+                        {
+                            "gender": "MALE",
+                            "partyId": "V2D457909B71AC819237DE3391758238D78F4565C4B87B7282265B2FF97F91300DF488F441D8F9B923B021D40D5D153EBC",
+                            "isDriver": true,
+                            "lastName": "Vijay Wankhede",
+                            "addresses": [
+                                {
+                                    "city": "Wardha",
+                                    "state": "27",
+                                    "street": "Panther Chowk Behind SanewadiGourakshan WardWardha",
+                                    "country": "IN",
+                                    "pincode": "442001",
+                                    "addressId": "V210DD11865F49E1DA227E5C59AFD8D2CA8F4565C4B87B7282265B2FF97F91300DF488F441D8F9B923B021D40D5D153EBC",
+                                    "flatNumber": "",
+                                    "addressType": "SECONDARY_RESIDENCE"
+                                },
+                                {
+                                    "city": "Mumbai",
+                                    "country": "IN",
+                                    "pincode": "400010",
+                                    "addressId": "V2CC219C572E84C4B45909338ABBBBF9418F4565C4B87B7282265B2FF97F91300DF488F441D8F9B923B021D40D5D153EBC",
+                                    "addressType": "PRIMARY_RESIDENCE"
+                                }
+                            ],
+                            "firstName": "Prenit",
+                            "personType": "INDIVIDUAL",
+                            "dateOfBirth": "1992-07-20",
+                            "communications": [
+                                {
+                                    "identifier": "V2FE035D31E7411BD5B3CE85060223E1968F4565C4B87B7282265B2FF97F91300DF488F441D8F9B923B021D40D5D153EBC",
+                                    "communicationId": "8739045239",
+                                    "communicationNote": null,
+                                    "communicationType": "MOBILE",
+                                    "communicationChannel": null,
+                                    "isPrefferedCommunication": true
+                                },
+                                {
+                                    "identifier": "V209DEAEC4C297F1CEE6C3726B844C6A108F4565C4B87B7282265B2FF97F91300DF488F441D8F9B923B021D40D5D153EBC",
+                                    "communicationId": "wprenitw@gmail.com",
+                                    "communicationNote": null,
+                                    "communicationType": "EMAIL",
+                                    "communicationChannel": null,
+                                    "isPrefferedCommunication": true
+                                }
+                            ],
+                            "isPolicyHolder": true,
+                            "isVehicleOwner": true,
+                            "isInsuredPerson": true,
+                            "identificationDocuments": []
+                        }
+                    ],
+                    "vehicle": {
+                        "make": "HONDA",
+                        "model": "CITY",
+                        "trailers": [],
+                        "vehicleIDV": {
+                            "idv": 787881.0,
+                            "defaultIdv": 787881.0,
+                            "maximumIdv": 906064,
+                            "minimumIdv": 669699
+                        },
+                        "vehicleType": "KFZP10",
+                        "engineNumber": "87390452398739045984",
+                        "isVehicleNew": true,
+                        "annualMileage": 0.0,
+                        "manufactureDate": "2024-07-01",
+                        "vehicleMaincode": "1111610601",
+                        "registrationDate": "0001-01-01",
+                        "vehicleAgeInYears": 0,
+                        "licensePlateNumber": "MH01",
+                        "ownershipSerialNumber": "0",
+                        "registrationAuthority": "MH01",
+                        "vehicleIdentificationNumber": "87390452398739045287"
+                    },
+                    "contract": {
+                        "endDate": "2027-08-01",
+                        "coverages": {
+                            "fire": {
+                                "selection": false
+                            },
+                            "theft": {
+                                "selection": false
+                            },
+                            "addons": {
+                                "evShield": {
+                                    "planA": {
+                                        "selection": false
+                                    },
+                                    "planC": {
+                                        "selection": false
+                                    },
+                                    "copay10EV": {
+                                        "selection": false
+                                    },
+                                    "copay20EV": {
+                                        "selection": false
+                                    },
+                                    "evClaims2": {
+                                        "selection": false
+                                    },
+                                    "noCopayEV": {
+                                        "selection": false
+                                    },
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "NOT_AVAILABLE"
+                                },
+                                "consumables": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "towingCover": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "NOT_AVAILABLE"
+                                },
+                                "payAsYouDrive": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "rimProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "tyreProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "dailyConveyance": {
+                                    "planType": "COMP",
+                                    "planLimit": 300,
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "planPeriod": 5,
+                                    "excessPeriod": 5,
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "preferredGarage": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "returnToInvoice": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "engineProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "keyAndLockProtect": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "ONE_KP",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "partsDepreciation": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "TWO",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "personalBelonging": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "ONE_PB",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "roadSideAssistance": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                }
+                            },
+                            "isIMT23": false,
+                            "isGeoExt": false,
+                            "ownDamage": {
+                                "discount": {
+                                    "discounts": [],
+                                    "incremental": {
+                                        "isIncrementalApplicable": true,
+                                        "defaultCommisionPercentage": 24.0,
+                                        "maximumIncrementalPercentage": 16.0,
+                                        "minimumIncrementalPercentage": -24.0
+                                    },
+                                    "discountsWithoutZeroDep": [],
+                                    "maxSpecialDiscountPercent": 65.0,
+                                    "minSpecialDiscountPercent": 0.0,
+                                    "userSpecialDiscountPercent": 0.0,
+                                    "defaultSpecialDiscountPercent": 65.0,
+                                    "discountsWithoutPreInspection": [],
+                                    "effectiveSpecialDiscountPercent": 0,
+                                    "effectiveIncrementalCommissionPercent": 0.0,
+                                    "defaultSpecialDiscountPercentWithoutPreInspection": 65.0,
+                                    "effectiveSpecialDiscountPercentWithoutPreInspection": 0,
+                                    "effectiveIncrementalCommissionPercentWithoutPreInspection": 0.0
+                                },
+                                "selection": false,
+                                "surcharge": {
+                                    "loadings": []
+                                },
+                                "netPremium": "INR 9053.15",
+                                "traiffPremium": "INR 25866.00",
+                                "netPremiumWithoutZeroDepWithoutPreInspection": "INR 9053.15",
+                                "ncbDiscountWithoutZeroDepWithoutPreInspection": "INR 0.00",
+                                "policyNetPremiumWithoutZeroDepWithoutPreInspection": "INR 20302.15",
+                                "policyGrossPremiumWithoutZeroDepWithoutPreInspection": "INR 23956.54"
+                            },
+                            "unnamedPA": {
+                                "unnamedPax": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredAmount": 100000.0
+                                },
+                                "unnamedHirer": {
+                                    "selection": false
+                                },
+                                "unnamedCleaner": {
+                                    "selection": false
+                                },
+                                "unnamedConductor": {
+                                    "selection": false
+                                },
+                                "unnamedPaidDriver": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredAmount": 200000.0
+                                },
+                                "unnamedPillionRider": {
+                                    "selection": false
+                                }
+                            },
+                            "accessories": {
+                                "cng": {
+                                    "selection": false,
+                                    "maxAllowed": 80000,
+                                    "minAllowed": 10000,
+                                    "insuredAmount": 15000.0
+                                },
+                                "electrical": {
+                                    "selection": false,
+                                    "maxAllowed": 118182,
+                                    "minAllowed": 79,
+                                    "insuredAmount": 79
+                                },
+                                "nonElectrical": {
+                                    "selection": false,
+                                    "maxAllowed": 78788,
+                                    "minAllowed": 79,
+                                    "insuredAmount": 79
+                                }
+                            },
+                            "legalLiability": {
+                                "cleanersLL": {
+                                    "selection": false
+                                },
+                                "employeesLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "nonFarePaxLL": {
+                                    "selection": false
+                                },
+                                "paidDriverLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "unnamedPaxLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "workersCompensationLL": {
+                                    "selection": false
+                                }
+                            },
+                            "personalAccident": {
+                                "coverTerm": 3,
+                                "selection": true,
+                                "netPremium": "INR 909.00",
+                                "coverAvailability": "AVAILABLE"
+                            },
+                            "roadSideAssistance": {
+                                "selection": false
+                            },
+                            "thirdPartyLiability": {
+                                "isTPPD": true,
+                                "selection": false,
+                                "netPremium": "INR 10340.00"
+                            },
+                            "isOverturningExclusionIMT47": false,
+                            "isTheftAndConversionRiskIMT43": false
+                        },
+                        "startDate": "2024-08-02",
+                        "isNCBTransfer": false,
+                        "quotationDate": "2024-08-01",
+                        "policyHolderType": "INDIVIDUAL",
+                        "isRenewalAvailable": false,
+                        "currentNoClaimBonus": "ZERO",
+                        "insuranceProductCode": "20101",
+                        "subInsuranceProductCode": "31",
+                        "quotationAvailabilityEndDate": "2024-08-31"
+                    },
+                    "loadings": {
+                        "otherLoadings": [],
+                        "totalLoadingAmount": "INR 0.00"
+                    },
+                    "pospInfo": {
+                        "isPOSP": false
+                    },
+                    "discounts": {
+                        "otherDiscounts": [],
+                        "specialDiscountAmount": "INR 0.00"
+                    },
+                    "enquiryId": "ENSUREZY1722502076605242",
+                    "kycStatus": {
+                        "kycVerificationStatus": "IN_PROGRESS"
+                    },
+                    "netPremium": "INR 20302.15",
+                    "serviceTax": {
+                        "cgst": "INR 0.00",
+                        "igst": "INR 3654.39",
+                        "sgst": "INR 0.00",
+                        "utgst": "INR 0.00",
+                        "taxType": "IGST",
+                        "totalTax": "INR 3654.39"
+                    },
+                    "policyState": "APPLICATION",
+                    "grossPremium": "INR 23956.54",
+                    "motorBreakIn": {
+                        "isBreakin": false,
+                        "totalGraceDays": 0,
+                        "isDocumentUploaded": false,
+                        "isPreInspectionWaived": false,
+                        "isPreInspectionCompleted": false
+                    },
+                    "policyNumber": "D601503510",
+                    "policyStatus": "INCOMPLETE",
+                    "applicationId": "V20BA335C9A10140D57FF92764087742AE8F4565C4B87B7282265B2FF97F91300DF488F441D8F9B923B021D40D5D153EBC",
+                    "preInspection": {
+                        "piOptions": [],
+                        "paydOptions": [],
+                        "isPreInspectionOpted": false,
+                        "isPreInspectionWaived": false,
+                        "isPreInspectionEligible": false,
+                        "isSchoolBusWaiverEligibleWithTPlusFortyEight": false
+                    },
+                    "motorQuestions": {
+                        "selfInspection": false,
+                        "whatsappCommunicationConstent": false
+                    },
+                    "previousInsurer": {
+                        "isClaimInLastYear": false,
+                        "previousInsurerCode": "",
+                        "previousNoClaimBonus": "ZERO",
+                        "previousPolicyNumber": "",
+                        "isPreviousInsurerKnown": false,
+                        "currentThirdPartyPolicy": {},
+                        "previousPolicyExpiryDate": "2024-05-02"
+                    },
+                    "informationMessages": []
+                },
+                "response_status_code": "200",
+                "error_message": {},
+                "policy_number": "D601503510",
+                "issue_date": "2024-08-02",
+                "start_date": "2024-08-02",
+                "expiry_date": "2027-08-01",
+                "od_policy_start_date": "2024-08-02",
+                "od_policy_expiry_date": "2025-08-02",
+                "tp_policy_start_date": "2024-08-02",
+                "tp_policy_expiry_date": "2027-08-02",
+                "policy_pdf": "https://ensurezy-website-staging.s3.amazonaws.com/media/insurer_tech/motor/policies/V20BA335C9A10140D57FF92764087742AE8F4565C4B87B7282265B2FF97F91300DF488F441D8F9B92.pdf",
+                "payment": 6
+            }
+        },
+        {
+            "id": 1,
+            "created_on": "2024-08-01T12:10:03.648547Z",
+            "updated_on": "2024-08-01T12:10:03.648576Z",
+            "is_policy_generated": true,
+            "insurer_tech_policy_id": 1,
+            "created_by": 30,
+            "motor_payment": 1,
+            "insurer_tech_policy": {
+                "id": 1,
+                "created_on": "2024-08-01T10:54:27.348080",
+                "updated_on": "2024-08-01T10:54:32.360381",
+                "uuid": "6611d38b-2013-4a04-aa95-24cc88111802",
+                "user_uuid": "0eb664cf-1bda-47f3-b02f-33bada46569b",
+                "request_data": {},
+                "status": "success",
+                "is_success": true,
+                "response_data": {
+                    "error": {
+                        "httpCode": 200,
+                        "errorCode": 0,
+                        "errorLink": null,
+                        "customErrorCode": null,
+                        "errorStackTrace": null,
+                        "validationMessages": []
+                    },
+                    "state": "ACTIVE",
+                    "persons": [
+                        {
+                            "gender": "MALE",
+                            "partyId": "V2E86F0C0264B2EBC418916D3A8D5D00069436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E25F50DB4224B6F022",
+                            "isDriver": true,
+                            "lastName": "Vijay Wankhede",
+                            "addresses": [
+                                {
+                                    "city": "Wardha",
+                                    "state": "27",
+                                    "street": "Panther Chowk Behind SanewadiGourakshan WardWardha",
+                                    "country": "IN",
+                                    "pincode": "442001",
+                                    "addressId": "V26E2FD932A79233C2BE2A155196CB8E479436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "flatNumber": "",
+                                    "addressType": "SECONDARY_RESIDENCE"
+                                },
+                                {
+                                    "city": "Mumbai",
+                                    "country": "IN",
+                                    "pincode": "400010",
+                                    "addressId": "V25815353BA5BA636AD5FA81B6DB2817BD9436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "addressType": "PRIMARY_RESIDENCE"
+                                }
+                            ],
+                            "firstName": "Prenit",
+                            "personType": "INDIVIDUAL",
+                            "dateOfBirth": "1992-07-20",
+                            "communications": [
+                                {
+                                    "identifier": "V2B770A1113B39C0BB618220E90C06C6509436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "communicationId": "8739045239",
+                                    "communicationNote": null,
+                                    "communicationType": "MOBILE",
+                                    "communicationChannel": null,
+                                    "isPrefferedCommunication": true
+                                },
+                                {
+                                    "identifier": "V26B1E976164759294C162902C3D831EAC9436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E25F50DB4224B6F022",
+                                    "communicationId": "wprenitw@gmail.com",
+                                    "communicationNote": null,
+                                    "communicationType": "EMAIL",
+                                    "communicationChannel": null,
+                                    "isPrefferedCommunication": true
+                                }
+                            ],
+                            "isPolicyHolder": true,
+                            "isVehicleOwner": true,
+                            "isInsuredPerson": true,
+                            "identificationDocuments": []
+                        }
+                    ],
+                    "vehicle": {
+                        "make": "HONDA",
+                        "model": "CITY",
+                        "trailers": [],
+                        "vehicleIDV": {
+                            "idv": 787881.0,
+                            "defaultIdv": 787881.0,
+                            "maximumIdv": 906064,
+                            "minimumIdv": 669699
+                        },
+                        "vehicleType": "KFZP10",
+                        "engineNumber": "87390452398739045287",
+                        "isVehicleNew": true,
+                        "annualMileage": 0.0,
+                        "manufactureDate": "2024-07-30",
+                        "vehicleMaincode": "1111610601",
+                        "registrationDate": "0001-01-01",
+                        "vehicleAgeInYears": 0,
+                        "licensePlateNumber": "MH01",
+                        "ownershipSerialNumber": "0",
+                        "registrationAuthority": "MH01",
+                        "vehicleIdentificationNumber": "87390452398739045286"
+                    },
+                    "contract": {
+                        "endDate": "2027-08-01",
+                        "coverages": {
+                            "fire": {
+                                "selection": false
+                            },
+                            "theft": {
+                                "selection": false
+                            },
+                            "addons": {
+                                "evShield": {
+                                    "planA": {
+                                        "selection": false
+                                    },
+                                    "planC": {
+                                        "selection": false
+                                    },
+                                    "copay10EV": {
+                                        "selection": false
+                                    },
+                                    "copay20EV": {
+                                        "selection": false
+                                    },
+                                    "evClaims2": {
+                                        "selection": false
+                                    },
+                                    "noCopayEV": {
+                                        "selection": false
+                                    },
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "NOT_AVAILABLE"
+                                },
+                                "consumables": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "towingCover": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "NOT_AVAILABLE"
+                                },
+                                "payAsYouDrive": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "rimProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "tyreProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "dailyConveyance": {
+                                    "planType": "COMP",
+                                    "planLimit": 300,
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "planPeriod": 5,
+                                    "excessPeriod": 5,
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "preferredGarage": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "returnToInvoice": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "engineProtection": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "keyAndLockProtect": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "ONE_KP",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "partsDepreciation": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "TWO",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "personalBelonging": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "claimsCovered": "ONE_PB",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                },
+                                "roadSideAssistance": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "coverAvailability": "AVAILABLE",
+                                    "coverOfferingType": "INDIVIDUAL"
+                                }
+                            },
+                            "isIMT23": false,
+                            "isGeoExt": false,
+                            "ownDamage": {
+                                "discount": {
+                                    "discounts": [],
+                                    "incremental": {
+                                        "isIncrementalApplicable": true,
+                                        "defaultCommisionPercentage": 24.0,
+                                        "maximumIncrementalPercentage": 16.0,
+                                        "minimumIncrementalPercentage": -24.0
+                                    },
+                                    "discountsWithoutZeroDep": [],
+                                    "maxSpecialDiscountPercent": 65.0,
+                                    "minSpecialDiscountPercent": 0.0,
+                                    "userSpecialDiscountPercent": 0.0,
+                                    "defaultSpecialDiscountPercent": 65.0,
+                                    "discountsWithoutPreInspection": [],
+                                    "effectiveSpecialDiscountPercent": 0,
+                                    "effectiveIncrementalCommissionPercent": 0.0,
+                                    "defaultSpecialDiscountPercentWithoutPreInspection": 65.0,
+                                    "effectiveSpecialDiscountPercentWithoutPreInspection": 0,
+                                    "effectiveIncrementalCommissionPercentWithoutPreInspection": 0.0
+                                },
+                                "selection": false,
+                                "surcharge": {
+                                    "loadings": []
+                                },
+                                "netPremium": "INR 9053.15",
+                                "traiffPremium": "INR 25866.00",
+                                "netPremiumWithoutZeroDepWithoutPreInspection": "INR 9053.15",
+                                "ncbDiscountWithoutZeroDepWithoutPreInspection": "INR 0.00",
+                                "policyNetPremiumWithoutZeroDepWithoutPreInspection": "INR 20302.15",
+                                "policyGrossPremiumWithoutZeroDepWithoutPreInspection": "INR 23956.54"
+                            },
+                            "unnamedPA": {
+                                "unnamedPax": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredAmount": 100000.0
+                                },
+                                "unnamedHirer": {
+                                    "selection": false
+                                },
+                                "unnamedCleaner": {
+                                    "selection": false
+                                },
+                                "unnamedConductor": {
+                                    "selection": false
+                                },
+                                "unnamedPaidDriver": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredAmount": 200000.0
+                                },
+                                "unnamedPillionRider": {
+                                    "selection": false
+                                }
+                            },
+                            "accessories": {
+                                "cng": {
+                                    "selection": false,
+                                    "maxAllowed": 80000,
+                                    "minAllowed": 10000,
+                                    "insuredAmount": 15000.0
+                                },
+                                "electrical": {
+                                    "selection": false,
+                                    "maxAllowed": 118182,
+                                    "minAllowed": 79,
+                                    "insuredAmount": 79
+                                },
+                                "nonElectrical": {
+                                    "selection": false,
+                                    "maxAllowed": 78788,
+                                    "minAllowed": 79,
+                                    "insuredAmount": 79
+                                }
+                            },
+                            "legalLiability": {
+                                "cleanersLL": {
+                                    "selection": false
+                                },
+                                "employeesLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "nonFarePaxLL": {
+                                    "selection": false
+                                },
+                                "paidDriverLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "unnamedPaxLL": {
+                                    "selection": false,
+                                    "netPremium": "INR 0.00",
+                                    "insuredCount": 1
+                                },
+                                "workersCompensationLL": {
+                                    "selection": false
+                                }
+                            },
+                            "personalAccident": {
+                                "coverTerm": 3,
+                                "selection": true,
+                                "netPremium": "INR 909.00",
+                                "coverAvailability": "AVAILABLE"
+                            },
+                            "roadSideAssistance": {
+                                "selection": false
+                            },
+                            "thirdPartyLiability": {
+                                "isTPPD": true,
+                                "selection": false,
+                                "netPremium": "INR 10340.00"
+                            },
+                            "isOverturningExclusionIMT47": false,
+                            "isTheftAndConversionRiskIMT43": false
+                        },
+                        "startDate": "2024-08-02",
+                        "isNCBTransfer": false,
+                        "quotationDate": "2024-08-01",
+                        "policyHolderType": "INDIVIDUAL",
+                        "isRenewalAvailable": false,
+                        "currentNoClaimBonus": "ZERO",
+                        "insuranceProductCode": "20101",
+                        "subInsuranceProductCode": "31",
+                        "quotationAvailabilityEndDate": "2024-08-31"
+                    },
+                    "loadings": {
+                        "otherLoadings": [],
+                        "totalLoadingAmount": "INR 0.00"
+                    },
+                    "pospInfo": {
+                        "isPOSP": false
+                    },
+                    "discounts": {
+                        "otherDiscounts": [],
+                        "specialDiscountAmount": "INR 0.00"
+                    },
+                    "enquiryId": "ENSUREZY1722489809483421",
+                    "kycStatus": {
+                        "kycVerificationStatus": "IN_PROGRESS"
+                    },
+                    "netPremium": "INR 20302.15",
+                    "serviceTax": {
+                        "cgst": "INR 0.00",
+                        "igst": "INR 3654.39",
+                        "sgst": "INR 0.00",
+                        "utgst": "INR 0.00",
+                        "taxType": "IGST",
+                        "totalTax": "INR 3654.39"
+                    },
+                    "policyState": "APPLICATION",
+                    "grossPremium": "INR 23956.54",
+                    "motorBreakIn": {
+                        "isBreakin": false,
+                        "totalGraceDays": 0,
+                        "isDocumentUploaded": false,
+                        "isPreInspectionWaived": false,
+                        "isPreInspectionCompleted": false
+                    },
+                    "policyNumber": "D601503124",
+                    "policyStatus": "INCOMPLETE",
+                    "applicationId": "V2848462917E46EB3E3625EAC6772C1F6F9436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E25F50DB4224B6F022",
+                    "preInspection": {
+                        "piOptions": [],
+                        "paydOptions": [],
+                        "isPreInspectionOpted": false,
+                        "isPreInspectionWaived": false,
+                        "isPreInspectionEligible": false,
+                        "isSchoolBusWaiverEligibleWithTPlusFortyEight": false
+                    },
+                    "motorQuestions": {
+                        "selfInspection": false,
+                        "whatsappCommunicationConstent": false
+                    },
+                    "previousInsurer": {
+                        "isClaimInLastYear": false,
+                        "previousInsurerCode": "",
+                        "previousNoClaimBonus": "ZERO",
+                        "previousPolicyNumber": "",
+                        "isPreviousInsurerKnown": false,
+                        "currentThirdPartyPolicy": {},
+                        "previousPolicyExpiryDate": "2024-05-02"
+                    },
+                    "informationMessages": []
+                },
+                "response_status_code": "200",
+                "error_message": {},
+                "policy_number": "D601503124",
+                "issue_date": "2024-08-02",
+                "start_date": "2024-08-02",
+                "expiry_date": "2027-08-01",
+                "od_policy_start_date": "2024-08-02",
+                "od_policy_expiry_date": "2025-08-02",
+                "tp_policy_start_date": "2024-08-02",
+                "tp_policy_expiry_date": "2027-08-02",
+                "policy_pdf": "https://ensurezy-website-staging.s3.amazonaws.com/media/insurer_tech/motor/policies/V2848462917E46EB3E3625EAC6772C1F6F9436EE92E6D06490B120CBDAEE59DB7C9745F5E4A9CBC3E.pdf",
+                "payment": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+/*
+Aim - First Program of C
+Author - Vaishali, Rakhi
+Place - SIRCL TECH
+Date - 20 Jun 2025
+*/
+
+#include<stdio.h>
+#incude<conio.h>
+void main()
+{
+   clrscr();
+   printf("\nHello User");
+   printf("\nWelcome in C");
+   getch();
+}//end of program

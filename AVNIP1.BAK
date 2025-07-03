@@ -1,0 +1,15 @@
+/*
+Aim - First Program of C
+Author - Rai
+Date - 7 May 2025
+Place - Sirsa
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ printf("\n\nHello\t\t\t\t\t\t\t\t\tWorld");
+ printf("\n\t\tWelcome in C");
+ getch();
+}

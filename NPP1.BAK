@@ -1,0 +1,15 @@
+/*
+ Aim - First Program of C
+ Author - Nakul, Parveen
+ Date - 25 Jun 2025
+ Place - SIRCL TECH
+*/
+#include<stdio.h>
+#include<stdio.h>
+void main()
+{
+  clrscr();
+  printf("\nHello User");
+  printf("\nWelcome in C");
+  getch();
+}

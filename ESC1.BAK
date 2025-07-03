@@ -1,0 +1,23 @@
+/*
+Aim - Escape Sequence Characters - Break the printing sequence of chars
+\n New Line (Carriage Return then Line Feed)
+\t Tab - Insert 8 columns gap between 2 words
+\b Backspace - Move your cursor one step back
+\r Carriage Return - Move cursor at the begning of line
+\" print double quotes on the screen
+\\ print backward slash on the screen
+\\n print \n on the screen
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  clrscr();
+  printf("Escape Sequence Characters - ");
+  printf("Break the printing sequence of characters.\n");
+  printf("Char always print from left to right at our cursor ");
+  printf("position and when it touch\nthe edge it will come to next line\b\b\b\bN");
+  printf("\nWelcome to C\rMy name is Samar Pratap Singh.");
+  printf("\n\"C\" develop in 1972\\ \\n");
+  getch();
+}

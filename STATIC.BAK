@@ -1,0 +1,13 @@
+main()
+{
+  msg();
+  msg();
+  msg();
+}
+msg()
+{
+  static int x=1;  //local variable of msg
+  printf("\n X=%d",x);
+  x++;   //2
+} // when control goes outside the msg then x will be destroyed
+// 1  2

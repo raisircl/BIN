@@ -1,0 +1,24 @@
+
+int main()
+{
+  int r;
+  clrscr();
+  printf("\nhello ");
+  r=sum(4);
+  printf("\nSum =%d",r);
+  getch();
+}
+int sum(int num) //4, 3, 2 ,1
+{
+   if(num>1) //4>1=>t, 3>1=>t,2>1, 1>1
+   {
+     return num+sum(num-1); // recursion      - - -
+	    //4+sum(3)------------------------- - -
+	   // 3+sum(2)--------------------------- -
+	   // 2+sum(1)--------------------------- - <----
+   }           //                                       -
+   else        //                                       -
+   {           //                                       -
+     return 1; // recursion stop ------------------------
+   }
+}

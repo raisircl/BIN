@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int num,sum=0;  // num=1234;ans=>10
+  clrscr();
+  printf("\nenter 4 digit number");
+  scanf("%d",&num);
+  /*4*/	sum=sum+num%10; // 0+1234%10=>0+4
+	num=num/10; //1234/10=>123
+  /*7*/ sum=sum+num%10; // 4+123%10=>4+3
+	num=num/10; //123/10=>12
+  /*9*/	sum=sum+num%10; // 7+12%10=>7+2
+	num=num/10; // 12/10=>1
+ /*10*/	sum=sum+num%10; //9+1%10=> 9+1
+ printf("\nThe sum of Digits =%d",sum);
+ getch();
+}
+/*
+ enter a 4 digit number and print its reverse
+ 1234=>4321
+ enter a 4 digit number and print sum of 1st and last digit
+ 1234=>5
+ enter a 3 digit number print sum of the cubes of its digits
+ 123=> 1*1*1+2*2*2+3*3*3=>1+8+27=>36
+
+*/

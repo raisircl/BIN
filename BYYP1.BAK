@@ -1,0 +1,15 @@
+/*
+Aim: First Program of C
+Author: Bunty, Yash, Yogesh
+Date: 29 March, 2024
+Place: SIRCL TECH, SIRSA
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  clrscr();
+  printf("\nHello User");
+  prntf("\nWelcome in C");
+  getch();
+}//end of program

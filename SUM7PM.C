@@ -1,0 +1,36 @@
+/*
+Aim - Sum of 2 Nos
+Author -
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   //declaration
+   int n1,n2,total; //variable name should be descriptive
+   clrscr();
+   //assignment
+   printf("\nEnter 2 Nos:");
+   scanf("%d%d",&n1,&n2); // scanf("format-specifiers",&var1,&var2,...);
+   //Note: Format Specfiers always adjacent
+   //using
+   total=n1+n2;
+
+   printf("\nThe sum is %d",total);
+   printf("\nThe sum of %d and %d is %d",n1,n2,total);
+   printf("\n %d\n+%d\n------\n %d\n------",n1,n2,total);
+   getch();
+
+}
+//The sum of 100 and 200 is 300
+
+/*
+ 400
+ 200
+-------
+ 600
+-------
+
+-
+
+*/

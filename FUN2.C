@@ -1,0 +1,96 @@
+/*
+What is function?
+ It is a set of instructions under a name.
+ It is part of program known as sub program.
+ It is used to divide a big problem into small small solutions.
+ It has agreement that is "Just call me and use me" and with this agreement if function
+ required some arguments( data ) then during call data must be passed to
+ function.
+
+
+Function provides reuseability of code
+
+Function - Implementation Rule
+
+1.  Declaration or Prototype of function (Always above the main() )
+
+    Syntax (rule to write)-
+
+       ReturnType FunctionName(DT, DT,...);
+
+       example:
+
+       void 	  msg();    // does not return and does not accept
+       void	  sum(int,int);
+	// sum is a function and it does not return but accept 2 int
+
+       void       table(int);
+
+       int        fact(int);
+
+       float       getpi();
+
+       float      result(int,int,int,int,int);
+
+      Key Point:
+       void mean - function does not return
+       empty parenthesis - function does not accept
+
+       Return	  Accept
+       No   	   No
+       No	   Yes
+       Yes	   Yes
+       Yes	   No
+
+2.  Definition (Below the main() )
+      Syntax -
+      ReturnType FunctionName(DT var, DT var,...)
+      {
+	 ......
+	 ......
+	 return value;  //optional
+      }
+
+3.  Calling    (Inside the main() )
+    Sytax -
+
+    funname(val,val,...);
+
+*/
+#include<stdio.h>
+void msg(); // does not accept and does not return
+void sum(int,int); // does not return but accept two int
+
+int main() // a name which is given to set of instructions
+{
+   int n1,n2;
+   clrscr();
+   printf("\nenter 2 nos");
+   scanf("%d%d",&n1,&n2);
+
+   sum(n1,n2); // n1 and n2 known as arguments
+
+
+   msg(); // calling
+
+   sum(100,200);
+
+   msg();
+
+   getch();
+
+   return 0;
+}
+
+void msg() // definition
+{
+  printf("\nHello User");
+  printf("\nWelcome to function");
+}
+
+void sum(int n1, int n2)
+{
+   int t;
+   t=n1+n2;
+   printf("\nSum=%d",t);
+}
