@@ -24,7 +24,7 @@ int main()
 {
   int i,j;
   clrscr();
-  for(i=1;i<=5;i++) //A
+  for(i=1;i<=20;i++) //A
   {
      for(j=1;j<=i;j++)  //B
      {

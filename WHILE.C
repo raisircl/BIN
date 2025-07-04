@@ -37,7 +37,8 @@ while(i<=10)
   printf("\n%d",i);
   i++;
 }
-for(;num>0;)
+
+for( ;num>0; )
 {
 
 }
@@ -50,5 +51,5 @@ for(;num>0;)
 3. Print a number to Word 123=> One Two Three
 4. enter a number and check is it arm strong or not
 153
-1*1*1+5*5*5+3*3*3 =>1+125+27=>153
+1*1*1 + 5*5*5 + 3*3*3 =>1+125+27=>153
 */

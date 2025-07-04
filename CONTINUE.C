@@ -54,4 +54,14 @@ print all possible combination of 1 2 3
 312
 213
 
+fibonacii
+1
+1
+2
+3
+5
+8
+13
+...
+
 */
