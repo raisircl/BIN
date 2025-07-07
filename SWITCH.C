@@ -3,7 +3,6 @@ switch case -
 1. it is a case control instruction
 2. it is used as alternate of if-else if-else
 3. it is just used to check equality
-
 Syntax -
 
 switch(choice)
@@ -80,11 +79,13 @@ void main()
 
 'A' 'a'
 case 'a':
+
 char ch;
 
-input
+input scanf("%c",&ch);
 
 ch=ch>=65&&ch<=90 ? ch+32 : ch;
+// ASCII  A - 65 a 97  ch='A'; ch=ch+32; printf("%c",ch); output a
 switch(choice)
 {
   case 'a':

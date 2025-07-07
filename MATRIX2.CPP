@@ -17,6 +17,7 @@ class Matrix
 		}
 	}
   }
+
   Matrix operator+(Matrix &m)
   {
 	int i,j;
@@ -25,7 +26,20 @@ class Matrix
 	{
 		for(j=0;j<3;j++)
 		{
-		    temp.a[i][j]=a[i][j]+m.a[i][j];
+		    temp.a[i][j]=this->a[i][j]+m.a[i][j];
+		}
+	}
+	return temp;
+  }
+  Matrix operator-(Matrix &m)
+  {
+	int i,j;
+	Matrix temp;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+		    temp.a[i][j]=this->a[i][j]+m.a[i][j];
 		}
 	}
 	return temp;
@@ -58,7 +72,10 @@ void main()
 
   //m5=m1.add(m2).add(m3).add(m4);
 
-  m3=m1+m2;//+m3+m4;
+  //m3=m1.add(m2);//+m3+m4;
+
+    m3=m1+m2;
+    m4=m1-m2;
 
   m3.output();
   getch();

@@ -20,7 +20,8 @@
         "LOGICOP.C": "cpp",
         "TERNERY.C": "cpp",
         "PSP1.C": "cpp",
-        "DIS.C": "cpp"
+        "DIS.C": "cpp",
+        "PP1.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
