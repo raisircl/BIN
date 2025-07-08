@@ -3,9 +3,9 @@ What is function?
  It is a set of instructions under a name.
  It is part of program known as sub program.
  It is used to divide a big problem into small small solutions.
- It has agreement that is "Just call me and use me" and with this agreement if function
- required some arguments( data ) then during call data must be passed to
- function.
+ It has agreement that is "Just call me and use me" and with this agreement
+ if function required some arguments( data ) then during call
+ data must be passed to function.
 
 
 Function provides reuseability of code
@@ -69,7 +69,6 @@ int main() // a name which is given to set of instructions
    scanf("%d%d",&n1,&n2);
 
    sum(n1,n2); // n1 and n2 known as arguments
-
 
    msg(); // calling
 

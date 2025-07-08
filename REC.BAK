@@ -10,8 +10,8 @@ int main()
    printf("\nHello");
    if(x<10)
    {
-   x++;
-   main(); //recursion
+     x++;
+     main(); //recursion
    }
    return 0;
 }

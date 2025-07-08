@@ -5,6 +5,21 @@ class Rect
   private:
   int l,b;
   public:
+  Rect()
+  {
+    l=0;
+    b=0;
+  }
+  Rect(int len, int bre)
+  {
+    l=len;
+    b=bre;
+  }
+  Rect(Rect &r)
+  {
+    l=r.l;
+    b=r.b;
+  }
   void input()
   {
      cout<<"\n enter l and b";
@@ -25,11 +40,14 @@ void main()
 {
   //array of objects
   Rect r1;
-  Rect r2;
+  Rect r2(4,3);
+  Rect r3(r2);
+
   clrscr();
   r1.input();
   r1.output();
   r1.area();
+
   getch();
 }
 

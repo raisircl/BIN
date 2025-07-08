@@ -76,7 +76,9 @@ int main() // a name which is given to set of instructions
    sum(100,200);
 
    msg();
+
    getch();
+
    return 0;
 }
 

@@ -24,7 +24,7 @@ void main()
 
   x=fact(4); //4x3x2x1=24
 
-  y=ss(10);
+  //y=ss(10);
 
   printf("\nFactorial is %d",x);
 

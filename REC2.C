@@ -10,23 +10,13 @@ void main()
 {
   int f;
   clrscr();
-  fun(3);
 
-  f=fact(5);
+  f=fact(3);
   printf("\n Factorial is %d",f);
   getch();
 }
 
-void fun(int x) //3  2  1 0
-{                       //-
-  if(x>0)              //-
-  {                   // -
-    printf("\nHello");// -
-    fun(x-1); //2 1 0---------
-  }
-  printf("\n x=%d",x);
 
-}
 int fact(int x)
 {
    if(x==1)

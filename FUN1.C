@@ -9,9 +9,9 @@
 
 void msg()   // definition
 {
-   printf("\nHello User");
-   printf("\nWelcome in C");
-   printf("\nI am doing C");
+   printf("\nHello User.");
+   printf("\nWelcome in C.");
+   printf("\nI am doing C.");
 }
 void sum()
 {
@@ -24,20 +24,11 @@ void main()
    clrscr();
 
    msg(); // calling
-
-   sum();
-
    printf("\nC Develop by Dennis Retchie");
-
    msg();
-
    printf("\nC Develop in 1972");
-
    msg();
-
    getch();
-
-
 }
 
 

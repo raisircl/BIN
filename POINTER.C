@@ -34,7 +34,7 @@ void main()
   // ptr |65524| address of x
 
   printf("\nAddress of X=%u",ptr);// xxxx
-  printf("\nValue of X=%d",*ptr); //
+  printf("\nValue of X=%d",*ptr); //10
 
   *ptr=100;
   printf("\nValue of X=%d",x); //100
