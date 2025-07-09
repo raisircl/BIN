@@ -21,7 +21,13 @@
         "TERNERY.C": "cpp",
         "PSP1.C": "cpp",
         "DIS.C": "cpp",
-        "PP1.C": "cpp"
+        "PP1.C": "cpp",
+        "ARRAY2.C": "cpp",
+        "MATRIX.C": "cpp",
+        "MATRIX2.C": "cpp",
+        "MATRIX3.C": "cpp",
+        "MATRIX4.C": "cpp",
+        "MATRXI1.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

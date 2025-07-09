@@ -37,7 +37,7 @@ int main()
 {
    int a[5];
    int i;
-
+int big;
 
    for(i=0;i<5;i++)  // 0,1,2,3,4
    {
@@ -46,18 +46,19 @@ int main()
    }
 
    printf("\n Your Array elements are:");
-   //big=0;
-   for(i=0;i<10;i++)
+   big=0;
+   for(i=0;i<5;i++)
    {
      //sum=sum+a[i];
-     //if(big<a[i])
-     //{
-	 //big=a[i];
-     //}
+     if(big<a[i])
+     {
+	   big=a[i];
+     }
      printf("\n%d",a[i]);
    }
    // print big
-   getch();
+   printf("\nBiggest element is %d",big);
+
    return 0;
 }
 /*
@@ -65,5 +66,6 @@ enter 10 elements in array and print sum of its element.
 enter 10 elements in array and print it in reverse order
 enter 10 element in array and print biggest element
 enter 10 elements in array and search an element
+enter 5 elements in array print it in sorted order
 
 */

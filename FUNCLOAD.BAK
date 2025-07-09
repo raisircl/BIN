@@ -1,0 +1,41 @@
+/*
+Function Overloading - Function has same name and accept diff diff args
+
+*/
+#include<iostream.h>
+#include<conio.h>
+
+class Shape
+{
+  public:
+  void area(double r)
+  {
+    double a;
+    a=31.14*r*r;
+    cout<<"\n Area of circle ="<<a;
+  }
+  void area(int l, int b)
+  {
+    int a;
+    a=l*b;
+    cout<<"\nArea of Rect="<<a;
+  }
+  void area(int x)
+  {
+    int a;
+    a=x*x;
+    cout<<"\n area of square ="<<a;
+  }
+
+};
+void main()
+{
+   Shape s1;
+   clrscr();
+   s1.area(3,2); // area of rec - at compile time compiler decide
+   //connection of a function call with its body is known as data binding
+
+   s1.area(3); // area of sq
+   s1.area(4.5);  // area of circle
+   getch();
+}
