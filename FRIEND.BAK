@@ -1,5 +1,12 @@
+/*
+Friend Function:
+1. It is a non member function.
+2. It can access private members of the class.
+*/
+
 #include<iostream.h>
 #include<conio.h>
+
 class Demo
 {
   private:

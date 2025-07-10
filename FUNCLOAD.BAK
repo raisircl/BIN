@@ -11,7 +11,7 @@ class Shape
   void area(double r)
   {
     double a;
-    a=31.14*r*r;
+    a=3.14*r*r;
     cout<<"\n Area of circle ="<<a;
   }
   void area(int l, int b)

@@ -3,14 +3,21 @@
 class BankAcc
 {
   private:
+   static int accgen;
    int accno;
    char accname[20];
    float accbal;
   public:
+   BankAcc()
+   {
+      accno=accgen;
+      accgen++;
+   }
    void openacc()
    {
-     cout<<"\nenter account number: ";
-     cin>>accno;
+     //cout<<"\nenter account number: ";
+     //cin>>accno;
+     cout<<"\nyour acc no is :"<<accno;
      cout<<"\nenter account holder name: ";
      cin>>accname;
      cout<<"\nenter amount to open account: ";
@@ -53,6 +60,7 @@ class BankAcc
     return accno;
    }
 };
+int BankAcc::accgen=101;
 //Array of objects
 void main()
 {
@@ -72,7 +80,7 @@ void main()
     cout<<"\nPress 2 for Desposit";
     cout<<"\nPress 3 for Withdraw";
     cout<<"\nPress 4 for Account Bal";
-    cout<<"\nPress 7 for Exit";
+    cout<<"\nPress 5 for Exit";
     cin>>choice;
     cout<<"\n--------------------------------------------------";
 
@@ -130,7 +138,7 @@ void main()
      case 4:
       fac.getbal();
       break;
-     case 7:
+     case 5:
        choice=7;
        break;
      default:

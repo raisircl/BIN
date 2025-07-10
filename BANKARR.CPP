@@ -3,14 +3,21 @@
 class BankAcc
 {
   private:
+   static int accgen;
    int accno;
    char accname[20];
    float accbal;
   public:
+   BankAcc()
+   {
+      accno=accgen;
+      accgen++;
+   }
    void openacc()
    {
-     cout<<"\nenter account number: ";
-     cin>>accno;
+     //cout<<"\nenter account number: ";
+     //cin>>accno;
+     cout<<"\nAcc no is :"<<accno;
      cout<<"\nenter account holder name: ";
      cin>>accname;
      cout<<"\nenter amount to open account: ";
@@ -53,6 +60,7 @@ class BankAcc
     return accno;
    }
 };
+int BankAcc::accgen=101;
 //Array of objects
 void main()
 {
