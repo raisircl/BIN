@@ -22,6 +22,7 @@ struct Book
 typedef struct Book B;
 typedef unsigned long int ULI;
 typedef int I;
+
 void disp(B);
 
 void main()

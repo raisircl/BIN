@@ -1,6 +1,7 @@
 /*
 Structure - It is 3rd data storage technique. It can store more than one
-value of different types at time. To implement structure we need to create it
+value of different types at time.
+To implement structure we need to create it
 first then use it. It is also known as user defined datatype.
 
 Syntax:

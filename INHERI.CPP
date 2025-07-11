@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+#include<iostream.h>
+//using namespace std;
 
 /*
 Inheritance - Acquire the members of existing class into new one.
@@ -56,6 +56,7 @@ class Parent
    public:
     ......
 };
+
 class Child : public Parent
 {
    private:
@@ -69,7 +70,9 @@ class Child : public Parent
 class Rect
 {
   protected:
+
   int l,b;  // instance variable
+
   public:
   Rect()   // Default
   {
@@ -97,7 +100,7 @@ class Rect
     return l*b;
   }
 };
-class Box:public Rect
+class Box : public Rect
 {
   int h;
   public:
@@ -128,7 +131,7 @@ class Box:public Rect
   int vol()
   {
     //return area()*h;
-    return l*b*h;
+    return l*b*h;  // box can access l and b bcause they are protected
   }
 };
 int main()
