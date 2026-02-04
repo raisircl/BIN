@@ -1,14 +1,14 @@
 /*
 Polymorphism - more than one form
 
-Compile Time Polymorphism | Design Time  | static overloading
+1. Compile Time Polymorphism | Design Time  | static Binding
 
 Function Overloading - Function has same name and accept diffrent arguments
 Operator Overloading - operator perform more than one task according to datatype
-Constructor Overloading - 
+Constructor Overloading -
 
-Runtime Polymorphism -
- Function Overriding
+2. Polymorphism -  Function Overriding
+   Run Time Polymorphism | Run Time | Dyanamic Binding
 
 */
 #include<iostream>
@@ -34,7 +34,7 @@ int main()
 {
    Shape s1;
 
-   s1.area(2,3);  // data binding - connection of a function call with its body
+   s1.area(2,3);// data binding - connection of a function call with its body
    s1.area(5.2);
    s1.area(4);
    return 0;

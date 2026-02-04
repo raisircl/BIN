@@ -1,12 +1,11 @@
 /*
-Hello user welcome inc C
 Aim - Escape Sequence Characters Introduction
 
 Date - 20	Sep 2023
 Place - SIRCL TECH
 
 Break the printing sequence of characters
-Hello
+
 
 \n new line
 \t tab  insert 8 characters gap between 2 words
@@ -26,7 +25,9 @@ int main()
 {
   clrscr();
   printf("Hello\t\t\t\t\t\t\t\t\t    User");
-  printf("\n\nWelcome in \"C\" \\n \\");
+  printf("\nWelcome in \"C\"\b\bR");
+
+  printf("\nWelcome to SIRCL TECH\\n");
 
   getch();
   return 0;

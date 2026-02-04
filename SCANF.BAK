@@ -37,12 +37,13 @@ void main()
  -   subtraction
  *   multiply
  /   div       5/2=>2   int/int=>int
- %   modulas   5%2=>1
+ %   modulas   5%2=>1  Remainder
 
  1 .enter principle , rate and time print simple interest
  2. enter marks of 5 subjects and print sum and percentage
  3. enter mrp of book give 10% dis and print net price
- 4. enter 2 nos and print their value after interchange (using temp variable)
+ 4. enter 2 nos and print their value after interchange
+    (using temp variable)
  5. enter 2 nos and print their value after swap(without using temp)
     a=5 =>7
     b=7 =>5

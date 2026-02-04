@@ -14,6 +14,7 @@ int main() //calling function
   fun(a); // a is actual parameter
 
   printf("\nAfter Call of Fun A=%d",a);
+  getch();
   return 0;
 }
 void fun(int x)  // x is formal parameter // fun is called function

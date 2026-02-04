@@ -4,11 +4,12 @@ using namespace std;
 
 /*
 constructor: It is a special function which has same name as of
- the class name and it is automatic called during object creation
+the class name and it is automatic called during object creation
 
 Primary Job: Allocate Memmory for an object of a class
 
 Features:
+
 It always be public.
 It does not has return type - not even void.
 It always called once for an object of a class

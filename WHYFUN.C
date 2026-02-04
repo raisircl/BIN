@@ -1,9 +1,12 @@
 /*
+
  Function - Set of Instructions (action). Part of Program (Sub Program)
- Agreement - Function said that I am always ready to perform a
-   job you just call me and use me.
+ Agreement -
+ Function said that I am always ready to perform a job you just call me
+ and use me.
 
 Why We need function?
+
 Ans.
    1. when you are unable to perform a job
    2. Need to perform a job again and again (time consuming)
@@ -27,8 +30,8 @@ void main()
 
    printf("\nC Developed in 1972");
 
-   printf("\nHello User");
-   printf("\nWelcome in C");
+   printf("\nHello User.");
+   printf("\nWelcome in C.");
 
 
    getch();

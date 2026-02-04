@@ -22,9 +22,9 @@ void main()
   int y;
   clrscr();
 
-  x=fact(4); //4x3x2x1=24
+  x = fact(5); //4x3x2x1=24
 
-  //y=ss(10);
+  //y=ss(5);
 
   printf("\nFactorial is %d",x);
 

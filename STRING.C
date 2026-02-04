@@ -7,7 +7,7 @@ eg. char name[50];  // we need to take input using scanf or gets func.
 
 or
 
-char name[]="Ankush";
+char name[]="Chelsi"; // initialize
 
 or
 
@@ -37,13 +37,16 @@ int main()
 
   printf("\nHello %s",name);
 
+  //RAM\0
   for(i=0;name[i]!='\0';i++)
   {
      printf("\n %c",name[i]);
-  }
+  } // 0,1,2, 3(exit)
 
   printf("\n%s is %d char long",name,i);
+
   printf("\n%s is in rev order ",name);
+  //i=3
   for(i=i-1;i>=0;i--)
   {
    printf("%c",name[i]);

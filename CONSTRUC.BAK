@@ -5,13 +5,16 @@ using namespace std;
 /*
 constructor: It is a special function which has same name as of
  the class name and it is automatic called during object creation
+
 Primary Job: Allocate Memmory for an object of a class
 
 Features:
-It always be public
-It does not return not even void
+It always be public.
+It does not has return type - not even void.
 It always called once for an object of a class
-It is used to initialize data members of a class
+
+Application: It is used to initialize data members (properties) of a class.
+
 
 it has three type
 
@@ -52,10 +55,11 @@ public:
    b=0;
    cout<<"\n Default Constructor Called";
  }
- ~Rect()
+ ~Rect()  //destructor
  {
    cout<<"\n Object Destroyed";
  }
+
  Rect(int len, int b) // local variable name (same)
  {
     l=len;  // this is a pointer which is representative of current of object inside a class
@@ -64,8 +68,8 @@ public:
  }
  Rect(Rect &r) //copy
  {
-   l=r.l;
-   b=r.b;
+   this->l=r.l;
+   this->b=r.b;
    cout<<"\n Copy constructor called";
  }
  void output()
@@ -75,7 +79,7 @@ public:
 };
 int main()
 {
-    
+
     Rect r1; // default
     Rect r2(3,4); // parameterized
     Rect r3(r2); // copy

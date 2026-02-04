@@ -22,6 +22,7 @@ struct Book
 void main()
 {
    struct Book b[3];
+   struct Book hpb;
    int i;
    clrscr();
    for(i=0;i<3;i++)
@@ -32,10 +33,20 @@ void main()
    printf("\nYour book detail is \n");
 
    printf("\nName\t\tPrice\t\tYear");
+   hpb=b[0]; // lets assume first book has highest price
+   //we can store a struct variable into another variable we can not store an array to another array
+
    for(i=0;i<3;i++)
    {
-   printf("\n%s\t\t%d\t\t%d",b[i].name,b[i].price,b[i].year);
+    if(hpb.price<b[i].price)
+    {
+      hpb=b[i];
+    }
+    printf("\n%s\t\t%d\t\t%d",b[i].name,b[i].price,b[i].year);
    }
+   printf("\nHighest Price Book Detail is \n");
+   printf("\n%s\t\t%d\t\t%d",hpb.name,hpb.price,hpb.year);
+
    getch();
 }
 

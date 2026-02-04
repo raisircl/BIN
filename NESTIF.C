@@ -29,7 +29,9 @@ else
 
 }
 enter age of a person check elgibility for lic
+
 criteria - age should between 18 to 45
+
 */
 
 #include<stdio.h>
@@ -60,10 +62,11 @@ void main()
 }
 
 /*
-Biggest between 3 Nos
+enter 3 nos and Biggest between 3 Nos
 
 a b c  - ram , sham, mohan  input age
-input  elder
+
+ who is elder?
 
 
 */

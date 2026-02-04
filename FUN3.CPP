@@ -30,13 +30,17 @@ void main()
   y=ss(10);
 
   printf("\nFactorial is %d",x);
+  printf("\nsum of all natural nos =%d",y);
 
   getch();
 }
 
 int ss(int num)
 {
-
+    int s=0, i;
+    for(i=1;i<=10;i++)
+    s=s+i;
+    return s;
 }
 
 

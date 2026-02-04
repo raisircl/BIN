@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a,b,c;
+  clrscr();
+  printf("\nenter 3 nos");
+  scanf("%d%d%d",&a,&b,&c);
+  if(a>b && a>c)
+  {
+    printf("\n A is biggest");
+  }
+  else if(b>c && b>a)
+  {
+    printf("\n B is big");
+  }
+  else if(c>a && c>b)
+  {
+    printf("\n C is big");
+  }
+
+  getch();
+}

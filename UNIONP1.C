@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+struct data
+{
+   int x;
+   char y;
+   float f;
+};
+
+void main()
+{
+  struct data dp1;
+
+  dp1.y='A';
+  dp1.x=2;
+
+  clrscr();
+  printf("\nSize of dp1=%d",sizeof(dp1));
+  printf("\n X=%d", dp1.x);
+  printf("\nY=%c",dp1.y);
+  getch();
+}

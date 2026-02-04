@@ -1,6 +1,8 @@
 /*
 Topic: Return an object from a function.
+
 Boxing  -
+
 Program: Create a distance class with members feet ,inch and add 2 distnace
 */
 #include<iostream.h>
@@ -42,6 +44,9 @@ void main()
     d1.input();
     d2.input();
     d3.input();
+
+    //d3=d2.add(d1);
+
     d4=d1.add(d2).add(d3);// d1 is current object
 
 
@@ -51,8 +56,8 @@ void main()
    cout<<"\n D2 ";
    d2.output();
 
-  cout<<"\n D3 ";
-  d3.output();
+   cout<<"\n D3 ";
+   d3.output();
 
   cout<<"\n D4";
   d4.output();

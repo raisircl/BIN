@@ -1,7 +1,9 @@
-#include <iostream>
+#include <iostream.h>
 
-using namespace std;
-
+//using namespace std;
+/*
+    Override the functin of base class into derive class
+*/
 class Father
 {
   public:
@@ -20,7 +22,7 @@ class Son:public Father
   void jeep()
   {
 
-    cout<<"\n Now I have Father's Jeep without hood";
+    cout<<"\n Now I have Father's Jeep without hood with wide tyres";
   }
   void car()
   {
@@ -32,7 +34,7 @@ int main()
    Father   f1;
    Son s1;
 
-  
+
 
    //f1.jeep();
    //s1.jeep();
@@ -40,8 +42,8 @@ int main()
    // pointer can hold the address of derive class object
    Father *ptr;
 
-   ptr=&s1; 
-   // pointer of parent class can access those members of 
+   ptr=&s1;
+   // pointer of parent class can access those members of
    //child class which are inherit from parent
 
    ptr->jeep();

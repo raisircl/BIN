@@ -9,8 +9,8 @@ author - urvi
 void main()
 {
 clrscr();
-printf("hello world");
-printf("welcome in c");
-getch()
+printf("hello papa");
+printf("\nmy first progam is done");
+getch();
 }
 //end of program

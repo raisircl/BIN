@@ -6,6 +6,7 @@
 */
 #include<stdio.h>
 #include<conio.h>
+//function is set of instructions under a name
 
 void msg()   // definition
 {
@@ -25,8 +26,6 @@ void main()
 
    msg(); // calling
 
-   sum();
-
    printf("\nC Develop by Dennis Retchie");
 
    msg();
@@ -36,8 +35,6 @@ void main()
    msg();
 
    getch();
-
-
 }
 
 

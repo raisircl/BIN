@@ -1,0 +1,42 @@
+/*
+String - Array of characters
+
+*/
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+void main()
+{
+  int fnl;
+  int i;
+  char fname[20]; // last character of  string  always be null char \0
+  // null char denotes end of string
+
+  char lname[]="Kumar"; // intialize the string input during declaration
+
+  clrscr();
+
+  printf("\nenter your name:");
+  //scanf("%s",name); // can not accept muliword input
+  gets(fname);
+
+  printf("\nWelcome %s %s",fname,lname);
+  //print string characters one by one
+  for(i=0;fname[i]!='\0';i++)
+  {
+    printf("\n%c",fname[i]);
+  }
+  printf("\n%s is %d char long ", fname, i);
+  printf("%s is in rev order ",fname);
+
+  for(i=i-1;i>=0;i--)
+  {
+    printf("%c",fname[i]);
+  }
+
+  fnl=strlen(fname);
+  printf("\n %s is %d char long ", fname,fnl);
+
+  getch();
+}

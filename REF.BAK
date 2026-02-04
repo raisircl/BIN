@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+#include<iostream.h>
+//using namespace std;
 /*
 
 Reference Variable - Create an alias(another name) of existing variable
@@ -15,7 +15,7 @@ int main()
 {
   int x=10;
   int &y=x;  // y is another name of x    it is called refrence variable
-  
+
   cout<<"\n Y="<<y;  // 10 that value of x
   y=100;  // x also will be 10
   cout<<"\nX="<<x;  // we get 100
@@ -25,7 +25,7 @@ int main()
   swap(n1,n2);    // swap(&n1,&n2);
   cout<<"\nafter call of swap n1="<<n1<<" and n2="<<n2;
   cout<<sizeof(int);
-  
+
 return 0;
 
 }
@@ -37,9 +37,11 @@ void swap(int &a,int &b) // a and b is ref var // void swap(int *a,int *b)
    b=c;         // *b=c;
 }
 /*
-void result(int,int,int,int,int,&int,&float);
+void result(int,int,int,int,int,int &,float &);
+
 
 Pass complete array to function
+
 void display(int[]);
 
 void display(int a[])

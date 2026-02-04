@@ -1,13 +1,14 @@
 /*
-Nested Loop - when we use a loop inside another loop then it is called nested
-	      loop.
+Nested Loop - when we use a loop inside another loop then
+it is called nested loop.
 Syntax --    <----
+
  for( 1 ;  2   ; 9 )<-------------   A
   {           - true come in loop-
      ---- 3 <--                  -
-     ----      <----             -
+	       <----             -
      for( 4  ; 5 ; 7 )<------    -   B
-     {         -            -    -
+     {         -T           -    -
        ---- 6 <-            -    -
        -----                -    -
      }  ---------------------    -
@@ -24,7 +25,7 @@ int main()
 {
   int i,j;
   clrscr();
-  for(i=1;i<=5;i++) //A
+  for(i=1;i<=10;i++) //A
   {
      for(j=1;j<=i;j++)  //B
      {
@@ -32,7 +33,7 @@ int main()
      }
      printf("\n");
   }
-  getch();
+ getch();
  return 0;
 
 }

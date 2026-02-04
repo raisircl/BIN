@@ -20,6 +20,7 @@ struct Book
   int price;
   int year;
 };
+
 void main()
 {
    struct Book b1={"Let us C",400,2009};

@@ -1,0 +1,12 @@
+#include<iostream.h>
+
+int main()
+{
+   //  input and output
+   int n1,n2,total;
+   cout<<"\nEnter 2 Nos";
+   cin>>n1>>n2;
+   total=n1+n2;
+   cout<<"\nThe sum is "<<total;
+   return 0;
+}

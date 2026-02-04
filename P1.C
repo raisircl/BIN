@@ -6,11 +6,12 @@ author - urvi
 */
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 clrscr();
 printf("hello papa");
 printf("\nmy first progam is done");
 getch();
+return 0;
 }
 //end of program

@@ -6,12 +6,13 @@
 */
 #include<stdio.h>
 #include<conio.h>
+//function is set of instructions under a name
 
 void msg()   // definition
 {
-   printf("\nHello User.");
-   printf("\nWelcome in C.");
-   printf("\nI am doing C.");
+   printf("\nHello User");
+   printf("\nWelcome in C");
+   printf("\nI am doing C");
 }
 void sum()
 {
@@ -24,10 +25,17 @@ void main()
    clrscr();
 
    msg(); // calling
+
    printf("\nC Develop by Dennis Retchie");
+
+   sum();
+
    msg();
+
    printf("\nC Develop in 1972");
+
    msg();
+
    getch();
 }
 

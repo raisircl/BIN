@@ -4,15 +4,26 @@ pointer is a special variable which can hold an address of another variable
 int x=10;      | 10 | 2020 (Address) - location number and 10 location value
 		  x  location name
 
+when we run the program 0-65535 locations reserve for a program
+x    location name
+10   location value
+2020 location number (pointer or address)
+
 x will reserve a memory block of RAM that block has a number and that number
 is know as address of variable so we can get a value of variable by its name
 and as well as its adress also.
 
-printf("\nX=%d",x); // 10
+printf("\nX=%d",x); // 10 - this a way to get a value of variable by its name
 
---if you want to get address of variable then prefix & (address of operator)
-with variable name
+Q. How we can get value of x by its address?
+Ans. For this we need to know x's address first.
+
+Now if you want to get address of variable then prefix
+& (address of operator) with variable name
 syntax: &varname;
+so printf("\nAddress of x=%u",&x); //%u used to print unsigned int values
+
+int range - 32767 max -32768 min
 
 */
 #include<stdio.h>
@@ -34,7 +45,7 @@ void main()
   // ptr |65524| address of x
 
   printf("\nAddress of X=%u",ptr);// xxxx
-  printf("\nValue of X=%d",*ptr); //
+  printf("\nValue of X=%d",*ptr); //10
 
   *ptr=100;
   printf("\nValue of X=%d",x); //100

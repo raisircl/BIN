@@ -6,7 +6,7 @@ combine 2 or more than 2 relations give result either true or false
 9>6 && 7<9
  1  && 1
     1
-&& Logical And gives true when all conditions goes to true
+&& Logical And - gives true when all conditions goes to true
 
 R1	R2	Result
 1	1	1
@@ -24,6 +24,7 @@ R1	R2	Result
 0	1	1
 0	0	0
 
+
 ! Logical Not
 
 Condition       Result
@@ -32,7 +33,7 @@ Condition       Result
       !(5<3)=>1
 	 !0 =>1
 
-
+  !5=>0  - other than zero always cosinder 1
 */
 #include<stdio.h>
 #include<conio.h>
@@ -42,6 +43,7 @@ void main()
    clrscr();
    printf("\nenter age of a person");
    scanf("%d",&age);
+
    if(age>=18 && age<=45)
    {
 	printf("\n Eligible for LIC");

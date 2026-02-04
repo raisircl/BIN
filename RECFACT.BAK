@@ -7,44 +7,44 @@ int main()
 {
     int num, f;
     printf("\nenter a number");
-    scanf("%d",&num); // 5
+    scanf("%d",&num); // 3, 5
     f=fact(num);// 6
     printf("\nThe factorial of %d is %d",num,f);
     return 0;
 }
 int fact(int x) // 3
 {
-    if(x==1) //false , 
+    if(x==1) //false ,
     {
-        return 1;
+	return 1;
     }
     else
-    {                                 
-        return x*fact(x-1); // 3*2
+    {
+	return x*fact(x-1); // 3*2
     }
 }
 /*
 int fact(int x) // 2
 {
-    if(x==1) //false , 
+    if(x==1) //false ,
     {
-        return 1;
+	return 1;
     }
     else
-    {                                 
-        return x*fact(x-1); // 2*1
+    {
+	return x*fact(x-1); // 2*1
     }
 }
 
 int fact(int x) // 1
 {
-    if(x==1) //true , 
+    if(x==1) //true ,
     {
-        return 1;
+	return 1;
     }
     else
-    {                                 
-        return x*fact(x-1); // 3*fact(2)
+    {
+	return x*fact(x-1); // 3*fact(2)
     }
 }
 */

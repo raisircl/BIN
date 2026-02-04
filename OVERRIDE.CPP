@@ -2,7 +2,9 @@
 
 //using namespace std;
 /*
-    Override the functin of base class into derive class
+    Polymorphism - Function Overirding | Dynamic Binding | Runtime Binding
+
+    Override the function of base class into derive class
 */
 class Father
 {
@@ -38,8 +40,10 @@ int main()
 
    //f1.jeep();
    //s1.jeep();
+
    // base class pointer can point to derive class object
    // pointer can hold the address of derive class object
+
    Father *ptr;
 
    ptr=&s1;

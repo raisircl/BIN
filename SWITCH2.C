@@ -6,14 +6,22 @@ void main()
   clrscr();
   printf("\nenter an alphabet");
   scanf("%c",&ch);
-
-  ch= (ch>=65&&ch<=90) ? ch+32 : ch;
-
+  //ASCII
+  //ch = (ch>=65&&ch<=90) ? ch+32 : ch;
+  if(ch>=65 && ch<=90)
+  {
+   ch=ch+32;
+  }
+  printf("\nyou entered %c",ch);
+  //A(65) - Z(90), a(97)-z(122) - 0 to 255
   switch(ch)
   {
     case 'a':
+
     case 'e':
+
     case 'i':
+
     case 'o':
     case 'u':
     /*case 'A':

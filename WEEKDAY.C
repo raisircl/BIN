@@ -1,6 +1,8 @@
 /*
 if - else if - else
 
+More than 2 option to select
+
 if(condition)
 {
  .....
@@ -37,11 +39,23 @@ int main()
   }
   else if(day==3)
   {
-   printf("\nWedness day");
+   printf("\nWednesday");
   }
   else if(day==4)
   {
     printf("\n Thursday");
+  }
+  else if(day==5)
+  {
+   printf("\nFriday");
+  }
+  else if(day==6)
+  {
+   printf("\nSaturday");
+  }
+  else if(day==7)
+  {
+    printf("\nSunday");
   }
   else
   {

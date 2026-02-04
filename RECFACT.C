@@ -23,24 +23,24 @@ int fact(int x) // 3
 	return x*fact(x-1); // 3*2
     }
 }
-/*
-int fact(int x) // 2
-{
-    if(x==1) //false ,
-    {
-	return 1;
-    }
-    else
-    {
-	return x*fact(x-1); // 2*1
-    }
-}
-
-int fact(int x) // 1
-{
-    if(x==1) //true ,
-    {
-	return 1;
+/*                             ^
+int fact(int x) // 2           |
+{                              |
+    if(x==1) //false ,         |
+    {                          |
+	return 1;              |
+    }                          |
+    else                       |
+    {                          |
+	return x*fact(x-1); // 2*1  <----
+    }                                   -
+}                                       -
+					-
+int fact(int x) // 1                    -
+{                                       -
+    if(x==1) //true ,                   -
+    {                                   -
+	return 1;------------------------
     }
     else
     {

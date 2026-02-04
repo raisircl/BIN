@@ -52,7 +52,7 @@ Function - Implementation Rule
       }
 
 3.  Calling    (Inside the main() )
-    Sytax -
+    Syntax -
 
     funname(val,val,...);
 
@@ -61,14 +61,14 @@ Function - Implementation Rule
 void msg(); // does not accept and does not return
 void sum(int,int); // does not return but accept two int
 
-int main() // a name which is given to set of instructions
+int main() // function is a name which is given to set of instructions
 {
    int n1,n2;
    clrscr();
    printf("\nenter 2 nos");
    scanf("%d%d",&n1,&n2);
 
-   sum(n1,n2); // n1 and n2 known as arguments
+   sum(n1,n2); // n1 and n2 known as actual arguments
 
    msg(); // calling
 

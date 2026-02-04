@@ -69,6 +69,7 @@ void disp(B hpb)
 }
 /*
 enter marks of 5 student print total , percentage and topper student detail
+
 rollno, name, hindi, eng, math, sci, sst, total, per
 
 */

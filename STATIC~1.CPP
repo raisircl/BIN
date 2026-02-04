@@ -12,7 +12,7 @@
 #include<iostream.h>
 #include<conio.h>
 //using namespace std;
-
+// Application - SrNo Auto Generate
 class Demo
 {
     private:
@@ -39,10 +39,11 @@ int main()
 {
     Demo d1,d2,d3,d4;
     clrscr();
-    d1.msg();
-    d2.msg();
-    d3.msg();
-    d4.msg();
+    d1.msg(); //11
+    d2.msg(); //12
+    d3.msg(); //13
+    d4.msg(); //14
+
     d1.msg2();
     d2.msg2();
     d3.msg2();

@@ -1,8 +1,9 @@
 /*
 switch case -
 1. it is a case control instruction
-2. it is used as alternate of if-else if-else
+2. it is used as alternate of if- else if- else with some limitations
 3. it is just used to check equality
+
 Syntax -
 
 switch(choice)
@@ -75,6 +76,7 @@ void main()
 }
 /*
 1. enter a digit and print it in word. 0 Zero, 1 One
+
 2. enter a char and check is it vowel or consonant
 
 'A' 'a'
@@ -85,6 +87,7 @@ char ch;
 input scanf("%c",&ch);
 
 ch=ch>=65&&ch<=90 ? ch+32 : ch;
+
 // ASCII  A - 65 a 97  ch='A'; ch=ch+32; printf("%c",ch); output a
 switch(choice)
 {

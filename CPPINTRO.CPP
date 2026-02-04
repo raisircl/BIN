@@ -20,7 +20,7 @@
 
   Class   - Class is collection of descriptions. It is just an imagination.
 	    It does not physically exist in the world.
-  Object  - Physically exist in the word which can be describe
+  Object  - Physically exist in the world which can be describe
 
   Relation Between Class and Object
 

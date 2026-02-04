@@ -2,12 +2,14 @@
 /*
 Call By Value
 if any change in formal parameter
-it does not affect actual  paramater
+it does not affect actual paramater
 */
 void fun(int);
+
 int main() //calling function
 {
   int a=10;
+
   clrscr();
   printf("\nBefore call of fun A=%d",a);
 

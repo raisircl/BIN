@@ -1,6 +1,8 @@
 /*
 if - else if - else
 
+More than 2 option to select
+
 if(condition)
 {
  .....
@@ -20,8 +22,8 @@ else
 enter day of the week and print name of the day
 */
 #include<stdio.h>
-#include<conio.h>
-void main()
+
+int main()
 {
   int day;
   clrscr();
@@ -37,7 +39,23 @@ void main()
   }
   else if(day==3)
   {
-   printf("\nWedness day");
+   printf("\nWednesday");
+  }
+  else if(day==4)
+  {
+    printf("\n Thursday");
+  }
+  else if(day==5)
+  {
+   printf("\nFriday");
+  }
+  else if(day==6)
+  {
+   printf("\nSaturday");
+  }
+  else if(day==7)
+  {
+    printf("\nSunday");
   }
   else
   {
@@ -55,5 +73,23 @@ enter a digit 0 - 9 print it in word
 
 Biggest between 3 nos
 
+logical and &&
+
+if(a>b&&a>c)
+{
+
+}
+else if(b>c && b>a)
+{
+
+}
+else if(c>a && c>b)
+{
+
+}
+else
+{
+
+}
 
 */

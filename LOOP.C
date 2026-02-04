@@ -14,7 +14,7 @@ while
 do-while
 
 In c langauge for loop is used for known situations. It is counter control
-loop. syntax -                   <---------------
+loop. syntax -                   <---------------4
 		(1)             (2)             <----------------------
 for(initialize-loop-counter; condition; incr|decr-in-counter)         -
 {                               - (true)                              -
@@ -22,7 +22,7 @@ for(initialize-loop-counter; condition; incr|decr-in-counter)         -
   ....                             execute statement one by one       -
   ....  3                                                             -
 }----- from closing braces go to incr or decr point--------------------
-
+......
 */
 #include<stdio.h>
 #include<conio.h>

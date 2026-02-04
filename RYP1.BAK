@@ -1,0 +1,15 @@
+/*
+Aim - First Program of C
+Author - Ravi, Yogesh
+Date 13-11-2025
+Place - SIRCL TECH , SIRSA
+*/
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+  clrscr();
+  printf("Hello User");
+  getch();
+}//end of program

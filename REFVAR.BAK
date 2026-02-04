@@ -1,0 +1,15 @@
+#include<iostream.h>
+int main()
+{
+  int x=100;
+  //refrence variable is an alias of an another variable
+  //syntax - datatype &alias_varname=varname;
+  int &y=x; // here y is another name of x
+
+  cout<<"\n Value of x="<<x;
+  cout<<"\n value of Y="<<y;
+  y=200;
+  cout<<"\n value of X="<<x;
+
+
+}

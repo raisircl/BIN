@@ -1,0 +1,42 @@
+/*
+Aim - First Program of C
+Author - Gagan, Arshiya
+Date - 09/09/2025
+Place - SIRCL TECH
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  clrscr(); // in built function exist in conio.h
+  printf("\nHello\t\t\t\t\t\t\t\t\t    User"); // in built out function exist stdio.h
+  printf("\n\nWelcome in \"C\" \\n"); //
+  getch();
+  // input function , take a char input, does not echo ,
+  //exist in conio.h , here it is used to hold the screen
+
+}//end of program
+
+/*
+escape sequence characters
+\n  - new line (cariage return then line feed)
+\t  - tab insert 8 columns gap between 2 words
+\b - move cursor one step backward
+\r - move cursor at begning of line
+\\ - print a single backslash on screen
+\"  - print double quotes on screen
+\\n - print \n on screen
+
+Assignment
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  printf("\nhello user");
+  printf("\nwelcome in c");
+}
+*/
+
+
+

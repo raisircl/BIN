@@ -6,7 +6,7 @@ combine 2 or more than 2 relations give result either true or false
 9>6 && 7<9
  1  && 1
     1
-&& Logical And gives true when all conditions goes to true
+&& Logical And - gives true when all conditions goes to true
 
 R1	R2	Result
 1	1	1
@@ -33,7 +33,7 @@ Condition       Result
       !(5<3)=>1
 	 !0 =>1
 
-
+  !5=>0  - other than zero always cosinder 1
 */
 #include<stdio.h>
 #include<conio.h>
@@ -59,7 +59,7 @@ void main()
 
 Biggest between 3 Nos  using logical operator and if -  else if - else
 
-h,e,m,sci,sst then clac =>total, per
+h,e,m,sci,sst then calc =>total, per
 
  print divsion
 

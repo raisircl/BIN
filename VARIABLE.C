@@ -24,7 +24,7 @@ int main()
    //Using
    printf("\nThe value of A=%d",a);
    printf("\nB=%c",b);
-   printf("\nC has float value that is %.1f",c);
+   printf("\nC has float value that is %.2f",c);
 
    printf("\nA=%d\nB=%c\nC=%f",a,b,c);
 

@@ -1,10 +1,10 @@
 /*
 do-while
 
- 1. Unknown Loop
- 2. Condition Control
- 3. Exit Control
- 4. Also known as Odd Loop
+ 1. Unknown Loop    like while
+ 2. Condition Control  like while
+ 3. Exit Control  not like while (entry control)
+ 4. Also known as Odd Loop  - always work once.
 
 Syntax:
 
@@ -16,6 +16,7 @@ Syntax:
 
 During entry inside loop there is no condition
 It always execute once so it is called odd loop
+
 Application -
 
 It is used for menu driven programming.
@@ -23,7 +24,6 @@ It is used for menu driven programming.
 */
 #include<stdio.h>
 #include<conio.h>
-#include<graphics.h>
 void main()
 {
     int n1,n2,r,choice;
@@ -78,6 +78,33 @@ What you want to do?
 
 			enter choice...3
 *****************************************************************
+
+1
+1
+2
+3
+5
+8
+13
+21
+...
+
+Fibonacii Series
+a	b 	c (a+b)
+1	0       1
+0	1 	1
+1	1	2
+1	2	3
+
+int a=1, b=0, c;
+do
+{
+  c=a+b;
+  printf("\n%d",c);
+  a=b;
+  b=c;
+}while(c<=100);
+
 */
 
 

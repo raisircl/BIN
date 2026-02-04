@@ -28,6 +28,7 @@ void main()
 
   c = a>b ? a : b;
 
+  /*
   if(a>b)
   {
     c=a;
@@ -36,6 +37,7 @@ void main()
   {
     c=b;
   }
+  */
 
   printf("\nBiggest Number is %d",c);
 
@@ -66,6 +68,7 @@ other wise invalid input
 11   75
 ----------
     525
+
 ITR
 from 	to 	tax%
 1	12 Lac	0

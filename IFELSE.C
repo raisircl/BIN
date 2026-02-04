@@ -1,7 +1,9 @@
 /*
 Decision Control Instructions -
-As we know a program is a solution of problem and a problem can not solve
+
+As we know a program is a solution of a problem and a problem can not solve
 without decision so to take decision in c programs there are following
+
 decision control instructions
 
 1. if-else
@@ -25,6 +27,7 @@ Note - else block always optional
 
 */
 /*
+
 enter mrp of book give 10% discount if mrp>=500 otherwise give 5% discount
 after discount print net price
 */
